@@ -12,7 +12,6 @@ import java.time.LocalDateTime;
 @Service
 public class ClienteService {
     public static ResponseEntity cadastrarCliente(DadosCliente cliente) {
-
         verificarCadastro(cliente);
         definirCliente(cliente);
 
